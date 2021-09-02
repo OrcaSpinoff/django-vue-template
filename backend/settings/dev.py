@@ -59,7 +59,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # Add dist to
-        'DIRS': ['dist'],
+        'DIRS': ['dist', 'public'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
